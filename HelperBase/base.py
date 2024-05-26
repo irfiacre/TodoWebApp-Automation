@@ -68,17 +68,18 @@ class HelperBase(BaseTestCase):
             self.type("#todo-input", item, timeout=5)
             time.sleep(1)
             self.find_element("#todo-input").send_keys(Keys.ENTER)
-            time.sleep(3)
+            time.sleep(2)
             if self.find_text(item, timeout=3):
                 write_to_file(self.reportFile, f"Item {item} Added successfully!")
             else:
-                write_to_file(self.reportFile, "Item was not added, Please investigate")
+                write_to_file(self.reportFile, "Item was not added, Please investigate", "ERROR")
+                self.fail("Item was not added, Please investigate")
             write_to_file(self.reportFile, "Making sure the element does not exist in the completed items")
             self.click('a:contains("Completed")', timeout=3)
             time.sleep(3)
             if self.is_element_visible(item):
                 write_to_file(self.reportFile, "Element should not exist on the 'Completed' tab", "WARN")
-                exit(0)
+                self.fail("Element should not exist on the 'Completed' tab")
             else:
                 write_to_file(self.reportFile, "Element exist in the right place")
             self.click('a:contains("All")', timeout=3)

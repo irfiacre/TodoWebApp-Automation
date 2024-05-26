@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 
 ### 3. How to Run the project
 ```sh
- pytest tests_automations/test_web_application.py -v
+ pytest tests_automations.py -v
 ```
 #### To run an individual test
 ```sh
