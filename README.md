@@ -10,6 +10,10 @@ The tests include adding items, marking them as completed, and deleting them.
 
 ## Getting Started
 
+### 0. Clonning the repo
+```sh
+$ git clone https://github.com/irfiacre/TodoWebApp-Automation.git
+```
 ### 1. Creating and activating a virtual environment
 ```sh
 $ python3 -m venv venv   (If you have python version 3.11*, replace python3 with python3.11)
