@@ -33,14 +33,11 @@ pip3 install -r requirements.txt
 
 ## Test Descriptions
 
-| Test Name                         |                                                                                 Note |
-|-----------------------------------|-------------------------------------------------------------------------------------:|
-| test_adding_a_new_to_do_item      |                          Test opens the web app and add a new item on the to do list |
-| test_mark_to_do_item_as_completed | Test opens the web app, add a new item on the to do list, and then marks it as done. |
-| test_delete_to_do_item            |       Test opens the web app, add a new item on the to do list, and then deletes it. |
-| test_combined_tests               |                                               Combines all the above mentioned tests |
+| Test Name                   | Note                                                     |
+|-----------------------------|:---------------------------------------------------------|
+| test_add_new_items          | Test scenarios for adding item(s) to the to do list      |
+| test_mark_item_as_completed | Test scenarios for marking item(s) as completed          |
+| test_delete_items           | Test scenarios for deleting item(s) from the list        |
+| test_combined_tests         | Test scenario that contains all actions combined         |
 
 NB: After each test(s) execution a report will be created in the `report` directory(folder).
-
-### Contributors
-[IRADUKUNDA Allelua Fiacre](https://github.com/irfiacre)
