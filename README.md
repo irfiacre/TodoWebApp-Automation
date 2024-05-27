@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 ```
 #### To run an individual test
 ```sh
- $ pytest tests_automations/test_combined_automation.py::<test_name> -v
+ $ pytest tests_automations/<test_file>.py::<test_name> -v
 ```
 
 ## Test Descriptions
