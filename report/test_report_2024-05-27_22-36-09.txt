@@ -1,0 +1,93 @@
+==========================================================================================
+Starting test_add_multiple_items_on_to_do_list Test
+---------------------------------------------------
+
+2024-05-27 - 22:36:13 - DEBUG -- Opening Web app
+2024-05-27 - 22:36:19 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-05-27 - 22:36:21 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-05-27 - 22:36:22 - DEBUG -- Making sure the element does not exist in the completed items
+2024-05-27 - 22:36:23 - DEBUG -- Element exist in the right place
+2024-05-27 - 22:36:25 - DEBUG -- Adding Item: Work on Project - To do list
+2024-05-27 - 22:36:26 - DEBUG -- Item Work on Project Added successfully!
+2024-05-27 - 22:36:27 - DEBUG -- Making sure the element does not exist in the completed items
+2024-05-27 - 22:36:28 - DEBUG -- Element exist in the right place
+2024-05-27 - 22:36:30 - TEST COMPLETION -- Ending test_add_multiple_items_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_adding_one_item_on_to_do_list Test
+---------------------------------------------------
+
+2024-05-27 - 22:36:34 - DEBUG -- Opening Web app
+2024-05-27 - 22:36:41 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-05-27 - 22:36:43 - DEBUG -- Item Watching a movie Added successfully!
+2024-05-27 - 22:36:44 - DEBUG -- Making sure the element does not exist in the completed items
+2024-05-27 - 22:36:45 - DEBUG -- Element exist in the right place
+2024-05-27 - 22:36:47 - TEST COMPLETION -- Ending test_adding_one_item_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_combined_tests Test
+---------------------------------------------------
+
+2024-05-27 - 22:36:50 - DEBUG -- Opening Web app
+2024-05-27 - 22:36:56 - DEBUG -- Adding Item: Shopping - To do list
+2024-05-27 - 22:36:57 - DEBUG -- Item Shopping Added successfully!
+2024-05-27 - 22:36:58 - DEBUG -- Making sure the element does not exist in the completed items
+2024-05-27 - 22:37:00 - DEBUG -- Element exist in the right place
+2024-05-27 - 22:37:03 - DEBUG -- Marking Item: -Shopping- as Completed
+2024-05-27 - 22:37:09 - DEBUG -- Deleting Item: - Shopping
+2024-05-27 - 22:37:14 - TEST COMPLETION -- Ending test_combined_tests Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_an_item_and_delete_it Test
+---------------------------------------------------
+
+2024-05-27 - 22:37:17 - DEBUG -- Opening Web app
+2024-05-27 - 22:37:23 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-05-27 - 22:37:24 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-05-27 - 22:37:26 - DEBUG -- Deleting Item: - Mountain Climbing
+2024-05-27 - 22:37:32 - TEST COMPLETION -- Ending test_add_an_item_and_delete_it Test
+==========================================================================================
+
+==========================================================================================
+Starting test_delete_multiple_items Test
+---------------------------------------------------
+
+2024-05-27 - 22:37:35 - DEBUG -- Opening Web app
+2024-05-27 - 22:37:43 - DEBUG -- Adding Item: Visit Friends - To do list
+2024-05-27 - 22:37:44 - DEBUG -- Item Visit Friends Added successfully!
+2024-05-27 - 22:37:45 - DEBUG -- Adding Item: Shopping - To do list
+2024-05-27 - 22:37:46 - DEBUG -- Item Shopping Added successfully!
+2024-05-27 - 22:37:47 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-05-27 - 22:37:49 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-05-27 - 22:37:51 - DEBUG -- Marking all items as completed
+2024-05-27 - 22:37:54 - DEBUG -- Clearing completed items
+2024-05-27 - 22:37:56 - TEST COMPLETION -- Ending test_delete_multiple_items Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_item_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-05-27 - 22:37:59 - DEBUG -- Opening Web app
+2024-05-27 - 22:38:05 - DEBUG -- Adding Item: Shopping - To do list
+2024-05-27 - 22:38:06 - DEBUG -- Item Shopping Added successfully!
+2024-05-27 - 22:38:08 - DEBUG -- Marking Item: -Shopping- as Completed
+2024-05-27 - 22:38:14 - TEST COMPLETION -- Ending test_add_item_and_mark_as_completed Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_multiple_items_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-05-27 - 22:38:17 - DEBUG -- Opening Web app
+2024-05-27 - 22:38:23 - DEBUG -- Adding Item: Scuba Diving - To do list
+2024-05-27 - 22:38:24 - DEBUG -- Item Scuba Diving Added successfully!
+2024-05-27 - 22:38:25 - DEBUG -- Adding Item: Work on Project - To do list
+2024-05-27 - 22:38:26 - DEBUG -- Item Work on Project Added successfully!
+2024-05-27 - 22:38:28 - DEBUG -- Marking all items as completed
+2024-05-27 - 22:38:31 - TEST COMPLETION -- Ending test_add_multiple_items_and_mark_as_completed Test
+==========================================================================================
+

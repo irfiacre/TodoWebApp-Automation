@@ -15,9 +15,9 @@ TO_DO_LIST = [
 REPORT_DIR = "report"
 
 
-class AutomatedTest(HelperBase):
+class AutomateAddItem(HelperBase):
 
-    def test_adding_one_new_item_on_to_do_list(self):
+    def test_adding_one_item_on_to_do_list(self):
         self.open_webapp()
         time.sleep(1)
         item = random.choice(TO_DO_LIST)
@@ -25,7 +25,7 @@ class AutomatedTest(HelperBase):
         number_of_items_xpath = f"//span[text()='1 item left!']"
         self.assert_element(number_of_items_xpath)
 
-    def test_adding_multiple_new_item_on_to_do_list(self):
+    def test_add_multiple_items_on_to_do_list(self):
         self.open_webapp()
         time.sleep(1)
         items_limit = random.randint(2, 5)

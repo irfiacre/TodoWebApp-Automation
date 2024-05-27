@@ -2,6 +2,5 @@ challenge_env
 downloaded_files
 latest_logs
 .pytest_cache
-report
 .idea
 .DS_Store
