@@ -1,0 +1,14 @@
+==========================================================================================
+Starting test_combined_tests Test
+---------------------------------------------------
+
+2024-06-03 - 23:50:44 - DEBUG -- Opening Web app
+2024-06-03 - 23:50:52 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-03 - 23:50:53 - DEBUG -- Item Shopping Added successfully!
+2024-06-03 - 23:50:54 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:50:55 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:50:58 - DEBUG -- Marking Item: -Shopping- as Completed
+2024-06-03 - 23:51:05 - DEBUG -- Deleting Item: - Shopping
+2024-06-03 - 23:51:09 - TEST COMPLETION -- Ending test_combined_tests Test
+==========================================================================================
+

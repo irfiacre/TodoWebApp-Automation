@@ -26,6 +26,7 @@ class AutomatedCombinedTest(HelperBase):
         self.mark_to_do_item_as_completed(item)
         time.sleep(1)
         self.delete_to_do_item(item)
+        time.sleep(2)
 
 
 if __name__ == "__main__":

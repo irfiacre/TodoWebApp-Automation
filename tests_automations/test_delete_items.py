@@ -24,7 +24,7 @@ class AutomateDeleteItem(HelperBase):
         self.add_item(item)
         time.sleep(1)
         self.delete_to_do_item(item)
-        time.sleep(1)
+        time.sleep(2)
 
     def test_delete_multiple_items(self):
         self.open_webapp()
@@ -36,6 +36,7 @@ class AutomateDeleteItem(HelperBase):
         self.mark_multiple_items_as_completed()
         time.sleep(1)
         self.delete_multiple_items()
+        time.sleep(2)
 
 
 if __name__ == "__main__":

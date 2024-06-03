@@ -24,6 +24,7 @@ class AutomateMarkItemsAsRead(HelperBase):
         self.add_item(item)
         time.sleep(1)
         self.mark_to_do_item_as_completed(item)
+        time.sleep(2)
 
     def test_add_multiple_items_and_mark_as_completed(self):
         self.open_webapp()
@@ -33,6 +34,7 @@ class AutomateMarkItemsAsRead(HelperBase):
             self.add_item(item)
         time.sleep(1)
         self.mark_multiple_items_as_completed()
+        time.sleep(2)
 
 
 if __name__ == "__main__":

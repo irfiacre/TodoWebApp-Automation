@@ -1,0 +1,99 @@
+==========================================================================================
+Starting test_add_multiple_items_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-03 - 23:53:29 - DEBUG -- Opening Web app
+2024-06-03 - 23:53:36 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-03 - 23:53:37 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-03 - 23:53:38 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:53:39 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:53:42 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-03 - 23:53:43 - DEBUG -- Item Shopping Added successfully!
+2024-06-03 - 23:53:44 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:53:45 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:53:47 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-03 - 23:53:48 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-03 - 23:53:49 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:53:50 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:53:52 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-06-03 - 23:53:53 - DEBUG -- Item Watching a movie Added successfully!
+2024-06-03 - 23:53:54 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:53:55 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:53:59 - TEST COMPLETION -- Ending test_add_multiple_items_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_adding_one_item_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-03 - 23:54:03 - DEBUG -- Opening Web app
+2024-06-03 - 23:54:08 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-03 - 23:54:10 - DEBUG -- Item Work on Project Added successfully!
+2024-06-03 - 23:54:11 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:54:12 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:54:16 - TEST COMPLETION -- Ending test_adding_one_item_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_combined_tests Test
+---------------------------------------------------
+
+2024-06-03 - 23:54:19 - DEBUG -- Opening Web app
+2024-06-03 - 23:54:27 - DEBUG -- Adding Item: Visit Friends - To do list
+2024-06-03 - 23:54:28 - DEBUG -- Item Visit Friends Added successfully!
+2024-06-03 - 23:54:29 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:54:30 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:54:33 - DEBUG -- Marking Item: -Visit Friends- as Completed
+2024-06-03 - 23:54:40 - DEBUG -- Deleting Item: - Visit Friends
+2024-06-03 - 23:54:46 - TEST COMPLETION -- Ending test_combined_tests Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_an_item_and_delete_it Test
+---------------------------------------------------
+
+2024-06-03 - 23:54:50 - DEBUG -- Opening Web app
+2024-06-03 - 23:54:55 - DEBUG -- Adding Item: Scuba Diving - To do list
+2024-06-03 - 23:54:56 - DEBUG -- Item Scuba Diving Added successfully!
+2024-06-03 - 23:54:58 - DEBUG -- Deleting Item: - Scuba Diving
+2024-06-03 - 23:55:05 - TEST COMPLETION -- Ending test_add_an_item_and_delete_it Test
+==========================================================================================
+
+==========================================================================================
+Starting test_delete_multiple_items Test
+---------------------------------------------------
+
+2024-06-03 - 23:55:08 - DEBUG -- Opening Web app
+2024-06-03 - 23:55:14 - DEBUG -- Adding Item: Playing Basketball - To do list
+2024-06-03 - 23:55:15 - DEBUG -- Item Playing Basketball Added successfully!
+2024-06-03 - 23:55:16 - DEBUG -- Adding Item: Scuba Diving - To do list
+2024-06-03 - 23:55:17 - DEBUG -- Item Scuba Diving Added successfully!
+2024-06-03 - 23:55:19 - DEBUG -- Marking all items as completed
+2024-06-03 - 23:55:23 - DEBUG -- Clearing completed items
+2024-06-03 - 23:55:27 - TEST COMPLETION -- Ending test_delete_multiple_items Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_item_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-03 - 23:55:30 - DEBUG -- Opening Web app
+2024-06-03 - 23:55:38 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-06-03 - 23:55:39 - DEBUG -- Item Watching a movie Added successfully!
+2024-06-03 - 23:55:41 - DEBUG -- Marking Item: -Watching a movie- as Completed
+2024-06-03 - 23:55:48 - TEST COMPLETION -- Ending test_add_item_and_mark_as_completed Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_multiple_items_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-03 - 23:55:52 - DEBUG -- Opening Web app
+2024-06-03 - 23:55:57 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-03 - 23:55:58 - DEBUG -- Item Shopping Added successfully!
+2024-06-03 - 23:55:59 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-03 - 23:56:01 - DEBUG -- Item Work on Project Added successfully!
+2024-06-03 - 23:56:03 - DEBUG -- Marking all items as completed
+2024-06-03 - 23:56:07 - TEST COMPLETION -- Ending test_add_multiple_items_and_mark_as_completed Test
+==========================================================================================
+

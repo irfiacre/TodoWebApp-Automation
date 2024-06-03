@@ -24,6 +24,7 @@ class AutomateAddItem(HelperBase):
         self.add_a_new_to_do_item(item)
         number_of_items_xpath = f"//span[text()='1 item left!']"
         self.assert_element(number_of_items_xpath)
+        time.sleep(2)
 
     def test_add_multiple_items_on_to_do_list(self):
         self.open_webapp()
@@ -34,6 +35,7 @@ class AutomateAddItem(HelperBase):
             self.add_a_new_to_do_item(item)
         number_of_items_xpath = f"//span[text()='{items_limit} items left!']"
         self.assert_element(number_of_items_xpath)
+        time.sleep(2)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,24 @@
+==========================================================================================
+Starting test_add_item_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-03 - 23:51:27 - DEBUG -- Opening Web app
+2024-06-03 - 23:51:32 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-06-03 - 23:51:33 - DEBUG -- Item Watching a movie Added successfully!
+2024-06-03 - 23:51:35 - DEBUG -- Marking Item: -Watching a movie- as Completed
+2024-06-03 - 23:51:41 - TEST COMPLETION -- Ending test_add_item_and_mark_as_completed Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_multiple_items_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-03 - 23:51:45 - DEBUG -- Opening Web app
+2024-06-03 - 23:51:52 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-03 - 23:51:53 - DEBUG -- Item Work on Project Added successfully!
+2024-06-03 - 23:51:54 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-03 - 23:51:56 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-03 - 23:51:58 - DEBUG -- Marking all items as completed
+2024-06-03 - 23:52:00 - TEST COMPLETION -- Ending test_add_multiple_items_and_mark_as_completed Test
+==========================================================================================
+

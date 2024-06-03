@@ -1,0 +1,28 @@
+==========================================================================================
+Starting test_add_multiple_items_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-03 - 23:49:43 - DEBUG -- Opening Web app
+2024-06-03 - 23:49:49 - DEBUG -- Adding Item: Visit Friends - To do list
+2024-06-03 - 23:49:50 - DEBUG -- Item Visit Friends Added successfully!
+2024-06-03 - 23:49:51 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:49:52 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:49:54 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-03 - 23:49:55 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-03 - 23:49:56 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:49:57 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:49:59 - TEST COMPLETION -- Ending test_add_multiple_items_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_adding_one_item_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-03 - 23:50:03 - DEBUG -- Opening Web app
+2024-06-03 - 23:50:10 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-03 - 23:50:12 - DEBUG -- Item Shopping Added successfully!
+2024-06-03 - 23:50:13 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-03 - 23:50:14 - DEBUG -- Element exist in the right place
+2024-06-03 - 23:50:16 - TEST COMPLETION -- Ending test_adding_one_item_on_to_do_list Test
+==========================================================================================
+
