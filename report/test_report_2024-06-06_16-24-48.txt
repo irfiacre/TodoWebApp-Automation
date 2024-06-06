@@ -1,0 +1,105 @@
+==========================================================================================
+Starting test_add_multiple_items_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-06 - 16:24:54 - DEBUG -- Opening Web app
+2024-06-06 - 16:24:59 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-06 - 16:25:01 - DEBUG -- Item Work on Project Added successfully!
+2024-06-06 - 16:25:02 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:03 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:05 - DEBUG -- Adding Item: Playing Basketball - To do list
+2024-06-06 - 16:25:06 - DEBUG -- Item Playing Basketball Added successfully!
+2024-06-06 - 16:25:07 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:08 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:11 - DEBUG -- Adding Item: Scuba Diving - To do list
+2024-06-06 - 16:25:12 - DEBUG -- Item Scuba Diving Added successfully!
+2024-06-06 - 16:25:13 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:14 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:16 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-06 - 16:25:17 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-06 - 16:25:18 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:19 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:21 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-06 - 16:25:23 - DEBUG -- Item Shopping Added successfully!
+2024-06-06 - 16:25:24 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:25 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:29 - TEST COMPLETION -- Ending test_add_multiple_items_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_adding_one_item_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-06 - 16:25:33 - DEBUG -- Opening Web app
+2024-06-06 - 16:25:37 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-06 - 16:25:39 - DEBUG -- Item Work on Project Added successfully!
+2024-06-06 - 16:25:40 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:41 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:45 - TEST COMPLETION -- Ending test_adding_one_item_on_to_do_list Test
+==========================================================================================
+
+==========================================================================================
+Starting test_combined_tests Test
+---------------------------------------------------
+
+2024-06-06 - 16:25:49 - DEBUG -- Opening Web app
+2024-06-06 - 16:25:53 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-06 - 16:25:54 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-06 - 16:25:55 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:25:56 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:25:59 - DEBUG -- Marking Item: -Mountain Climbing- as Completed
+2024-06-06 - 16:26:06 - DEBUG -- Deleting Item: - Mountain Climbing
+2024-06-06 - 16:26:12 - TEST COMPLETION -- Ending test_combined_tests Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_an_item_and_delete_it Test
+---------------------------------------------------
+
+2024-06-06 - 16:26:16 - DEBUG -- Opening Web app
+2024-06-06 - 16:26:20 - DEBUG -- Adding Item: Visit Friends - To do list
+2024-06-06 - 16:26:22 - DEBUG -- Item Visit Friends Added successfully!
+2024-06-06 - 16:26:24 - DEBUG -- Deleting Item: - Visit Friends
+2024-06-06 - 16:26:30 - TEST COMPLETION -- Ending test_add_an_item_and_delete_it Test
+==========================================================================================
+
+==========================================================================================
+Starting test_delete_multiple_items Test
+---------------------------------------------------
+
+2024-06-06 - 16:26:34 - DEBUG -- Opening Web app
+2024-06-06 - 16:26:38 - DEBUG -- Adding Item: Shopping - To do list
+2024-06-06 - 16:26:40 - DEBUG -- Item Shopping Added successfully!
+2024-06-06 - 16:26:41 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-06 - 16:26:42 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-06 - 16:26:44 - DEBUG -- Marking all items as completed
+2024-06-06 - 16:26:47 - DEBUG -- Clearing completed items
+2024-06-06 - 16:26:51 - TEST COMPLETION -- Ending test_delete_multiple_items Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_item_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-06 - 16:26:56 - DEBUG -- Opening Web app
+2024-06-06 - 16:27:01 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-06-06 - 16:27:02 - DEBUG -- Item Watching a movie Added successfully!
+2024-06-06 - 16:27:04 - DEBUG -- Marking Item: -Watching a movie- as Completed
+2024-06-06 - 16:27:12 - TEST COMPLETION -- Ending test_add_item_and_mark_as_completed Test
+==========================================================================================
+
+==========================================================================================
+Starting test_add_multiple_items_and_mark_as_completed Test
+---------------------------------------------------
+
+2024-06-06 - 16:27:16 - DEBUG -- Opening Web app
+2024-06-06 - 16:27:21 - DEBUG -- Adding Item: Mountain Climbing - To do list
+2024-06-06 - 16:27:22 - DEBUG -- Item Mountain Climbing Added successfully!
+2024-06-06 - 16:27:23 - DEBUG -- Adding Item: Work on Project - To do list
+2024-06-06 - 16:27:24 - DEBUG -- Item Work on Project Added successfully!
+2024-06-06 - 16:27:25 - DEBUG -- Adding Item: Watching a movie - To do list
+2024-06-06 - 16:27:26 - DEBUG -- Item Watching a movie Added successfully!
+2024-06-06 - 16:27:28 - DEBUG -- Marking all items as completed
+2024-06-06 - 16:27:33 - TEST COMPLETION -- Ending test_add_multiple_items_and_mark_as_completed Test
+==========================================================================================
+

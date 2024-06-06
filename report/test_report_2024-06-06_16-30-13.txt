@@ -1,0 +1,12 @@
+==========================================================================================
+Starting test_adding_one_item_on_to_do_list Test
+---------------------------------------------------
+
+2024-06-06 - 16:30:18 - DEBUG -- Opening Web app
+2024-06-06 - 16:30:22 - DEBUG -- Adding Item: Scuba Diving - To do list
+2024-06-06 - 16:30:23 - DEBUG -- Item Scuba Diving Added successfully!
+2024-06-06 - 16:30:24 - DEBUG -- Making sure the element does not exist in the completed items
+2024-06-06 - 16:30:25 - DEBUG -- Element exist in the right place
+2024-06-06 - 16:30:35 - TEST COMPLETION -- Ending test_adding_one_item_on_to_do_list Test
+==========================================================================================
+
